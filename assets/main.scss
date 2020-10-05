@@ -191,6 +191,7 @@ h4 {
   font-weight: 600;
   margin: 10px 18px;
   font-size: 14px;
+  color: #638cf6;
 
   &::before {
     top: -6px;
@@ -206,146 +207,11 @@ h4 {
     right: -15px;
   }
 
-  &__blue {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #eef2fe;
-      z-index: -1;
-    }
-    color: #4063d4;
-  }
-
-  &__purple {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #f2f0fe;
-      z-index: -1;
-    }
-    color: #5e4ad1;
-  }
-
-  &__lightgreen {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #cff8d9;
-      z-index: -1;
-    }
-    color: #191a1a;
-  }
-
-  &__lightpink {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #fff0f6;
-      z-index: -1;
-    }
-    color: #cd255d;
-  }
-
-  &__orange {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #fff3e7;
-      z-index: -1;
-    }
-    color: #f55521;
-  }
-
-  &__gray {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #f1f3f5;
-      z-index: -1;
-    }
-    color: #333a40;
-  }
-
-  &__yellow {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #fff6d6;
-      z-index: -1;
-    }
-    color: #563f12;
-  }
-
-  &__brown {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #ded8d6;
-      z-index: -1;
-    }
-    color: #5b3d33;
-  }
-
-  &__red {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #fddee4;
-      z-index: -1;
-    }
-    color: #99384a;
-  }
-
-  &__cian {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #cdf9f7;
-      z-index: -1;
-    }
-    color: #047874;
-  }
-
-  &__magenta {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #fed4ec;
-      z-index: -1;
-    }
-    color: #fa26a0;
-  }
-
-  &__yellowmagenta {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #feffdc;
-      z-index: -1;
-    }
-    color: #fa26a0;
-  }
-
-  &__purpleoramge {
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #e9e3ff;
-      z-index: -1;
-    }
-    color: #fe895b;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: #e6e8fa;
+    z-index: -1;
   }
 }
