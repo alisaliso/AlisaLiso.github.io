@@ -71,7 +71,7 @@ nav {
   width: 1048px;
   margin: 0 auto;
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1050px) {
     width: 100%;
     padding: 0 40px;
     box-sizing: border-box;
@@ -154,10 +154,10 @@ nav {
   &__table {
     p {
       margin: 0 0 10px;
+    }
 
-      @media (max-width: 952px) {
-        margin-bottom: 30px;
-      }
+    @media (max-width: 952px) {
+      margin-bottom: 30px;
     }
   }
 }
